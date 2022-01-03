@@ -32,9 +32,9 @@ What should we return when needle is an empty string? This is a great question t
 
 For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
 
-## <div align="center"> 🚥 Tests
+<!-- ## <div align="center"> 🚥 Tests
 
-<img src="assets/1.png" width=50% display="block" margin-left="auto" margin-right="auto"/>
+<img src="assets/1.png" width=50% display="block" margin-left="auto" margin-right="auto"/> -->
 
 ## <div align="center"> 🛠️ _Technologies used:_
 
@@ -43,7 +43,8 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
 ## <div align="center"> 🌟 _Teaching points:_
 
-<a name="contact"></a>
+- make sure we don't loop through last characters by subtracting length of substring and adding 1
+- if we are done return on a same loop iteration
 
 ## <div align="center"> 📬 Contact Information
 
